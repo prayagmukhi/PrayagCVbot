@@ -1,0 +1,72 @@
+{
+  "userSays": [
+    {
+      "id": "0cf2597c-8047-47e6-b2e2-f3de0d5a1a10",
+      "data": [
+        {
+          "text": "show me your cv"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "e72464bb-556b-4e69-81c6-1d69c4b70737",
+      "data": [
+        {
+          "text": "cv"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "cae7b614-61f5-4d83-abe8-2006940b2e7f",
+      "data": [
+        {
+          "text": "sure"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "8245d67f-8938-405f-b35e-a57d432b3f76",
+  "name": "cv",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "cv",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": [
+            "Here you are.",
+            "Here you go."
+          ]
+        },
+        {
+          "imageUrl": "https://dl.dropboxusercontent.com/s/3cjbukk5bawrcb4/prayag_resume-1.jpg",
+          "type": 3
+        },
+        {
+          "title": "Want to See some of personal projects?",
+          "replies": [
+            "Yes",
+            "Maybe Next Time"
+          ],
+          "type": 2
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

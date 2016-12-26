@@ -1,0 +1,45 @@
+{
+  "userSays": [
+    {
+      "id": "2c1f7162-790e-4164-bacc-0b53f99a0613",
+      "data": [
+        {
+          "text": "Education"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "cfcba20f-0e01-4c63-b235-dc4353e655fb",
+  "name": "Education",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "education",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "I am currently a B.com(Hons) Student from the University of Delhi."
+        },
+        {
+          "title": "Want to Check out My CV?",
+          "replies": [
+            "Sure",
+            "Not Really !"
+          ],
+          "type": 2
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

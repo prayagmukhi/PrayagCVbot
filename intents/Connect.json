@@ -1,0 +1,79 @@
+{
+  "userSays": [
+    {
+      "id": "8a9cf1f2-6c3a-4d5c-834b-354f9f17cca6",
+      "data": [
+        {
+          "text": "connect"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "ff8f489b-2386-4a5f-997e-396ceaf0704e",
+      "data": [
+        {
+          "text": "Not Really !"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "2813cbdc-9913-4917-978e-e01968d6e9d9",
+      "data": [
+        {
+          "text": "Maybe Next Time"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "95a2b2c0-769b-4558-92e1-4ca035291c0c",
+  "name": "Connect",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "connect",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "title": "You can connect with me here, if you like :)",
+          "buttons": [
+            {
+              "text": "Facebook",
+              "postback": "https://www.facebook.com/prayagmukhi"
+            },
+            {
+              "text": "Linkedin",
+              "postback": "https://www.linkedin.com/in/prayagmukhi"
+            },
+            {
+              "text": "Website",
+              "postback": "http://prayag.me"
+            }
+          ],
+          "type": 1
+        },
+        {
+          "title": "You can come back anytime and chat , just say hi :)",
+          "replies": [
+            "Hi",
+            "Bye"
+          ],
+          "type": 2
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

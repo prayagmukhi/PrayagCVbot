@@ -1,0 +1,41 @@
+{
+  "userSays": [
+    {
+      "id": "a72514d3-aef0-48b3-8b90-4955ae1d436a",
+      "data": [
+        {
+          "text": "bye"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "e49ba408-5003-4b24-88a0-7700b7be574d",
+  "name": "bye",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "bye",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "Bubye, see You soon :)"
+        },
+        {
+          "imageUrl": "http://24.media.tumblr.com/tumblr_m96e3sYWIx1qh2o7zo1_500.gif",
+          "type": 3
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": true,
+  "fallbackIntent": false,
+  "events": []
+}
